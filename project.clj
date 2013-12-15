@@ -19,4 +19,11 @@
                 :output-to "buffers.js"
                 :output-dir "out"
                 :optimizations :none
+                :source-map true}}
+             {:id "googtest"
+              :source-paths ["src"]
+              :compiler {
+                :output-to "googtest.js"
+                :output-dir "gout"
+                :optimizations :none
                 :source-map true}}]})
